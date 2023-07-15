@@ -1,0 +1,6 @@
+framework module UniqueSDK {
+  umbrella header "UniqueSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
