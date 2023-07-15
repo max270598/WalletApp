@@ -1,0 +1,40 @@
+PODS:
+  - Bip39.swift (0.1.1):
+    - UncommonCrypto (~> 0.1.0)
+  - KeychainAccess (4.2.2)
+  - Sr25519 (0.1.3):
+    - Sr25519/Sr25519 (= 0.1.3)
+  - Sr25519/CSr25519 (0.1.3):
+    - UncommonCrypto (~> 0.1.0)
+  - Sr25519/Helpers (0.1.3):
+    - Sr25519/CSr25519
+  - Sr25519/Sr25519 (0.1.3):
+    - Sr25519/CSr25519
+    - Sr25519/Helpers
+  - UncommonCrypto (0.1.3)
+  - UniqueSDK (0.0.6):
+    - Bip39.swift
+    - KeychainAccess
+    - Sr25519
+
+DEPENDENCIES:
+  - UniqueSDK
+
+SPEC REPOS:
+  trunk:
+    - Bip39.swift
+    - KeychainAccess
+    - Sr25519
+    - UncommonCrypto
+    - UniqueSDK
+
+SPEC CHECKSUMS:
+  Bip39.swift: b1d6bf4084659232e711b3d3e4bf7df666f39974
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Sr25519: 87a974e2d714113af55e1d7e5cef1b82864a57bd
+  UncommonCrypto: 8e6276bd3def28cdbd55966926c38c37ea1c9af5
+  UniqueSDK: 7d31201576f67216e0306b22e7a1e0acca7043ad
+
+PODFILE CHECKSUM: 419bfd797523846ba80032a70a6b0e4f21400fb4
+
+COCOAPODS: 1.11.3
